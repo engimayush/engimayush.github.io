@@ -7,47 +7,47 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
 
     <style>
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-
+        
       }
       body {
-
-        background-color: black;
+       
+        background-color: black;        
       }
      html {
       scroll-behavior: smooth;
      }
     </style>
-
-<body>
+</head>
+    
+<body>  
  <nav>
   <div class="nav-container">
     <div class="logo">
-
-  <div class="avatar-text">AS</div>
-</div>
+      <div class="avatar-text">AS</div>
+    </div>
 
      <button id="hamburger" class="hamburger">
-  <img id="hamburger-icon" src="image/hamburger-menu.svg" alt="Menu Icon">
-  <span id="close-icon" style="display:none; font-size: 36px; color: white; background: black; cursor: pointer;">&times;</span>
-</button>
-
+      <img id="hamburger-icon" src="image/hamburger-menu.svg" alt="Menu Icon">
+      <span id="close-icon" style="display:none; font-size: 36px; color: white; background: black; cursor: pointer;">&times;</span>
+    </button>
+    
      <ul class="nav-links">
       <li><a href="#about">About me</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact" class="contact-btn" style="color: black;">Contact Me</a></li>
      </ul>
-        </div>
+  </div>
 </nav>
-
-<script>
+     
+<script> 
   const hamburger = document.getElementById("hamburger");
   const navLinks = document.querySelector(".nav-links");
   const hamburgerIcon = document.getElementById("hamburger-icon");
@@ -64,10 +64,7 @@
     closeIcon.style.display = isActive ? "block" : "none";
   });
 </script>
-  <!-- <div class="tint">
-    <img src="image/entrepreneur etc.png"></img>
 
-  </div> -->
   <div class="container">
     <div class="first">
         <h1>Hi, I am <br> <span class="name">Ayush Sharma</span>
@@ -84,23 +81,20 @@
     </div>
     <div class="second">
       <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1200" alt="Tech Casual Portrait" class="full-responsive-img" />
-
     </div>
-
   </div>
+
   <div class="third">
-    <h1>
-      AYUSH SHARMA
-    </h1>
+    <h1>AYUSH SHARMA</h1>
     <p>
-      I specialize in creating beautiful and user-friendly websites that leave a lasting impression. With attention to detail and a passion for innovation, I bring your ideas to life with <br>clean design and smooth performance. I’m dedicated to delivering quality work that helps your business grow and connect with your audience.<br> Every project is a new opportunity to create something unique and effective. I stay updated with thelatest trends and technologies to ensure your site is modern and reliable.<br>Your satisfaction and success are my toppriorities throughout the entire process.
+      I specialize in creating beautiful and user-friendly websites that leave a lasting impression. With attention to detail and a passion for innovation, I bring your ideas to life with <br>clean design and smooth performance. I'm dedicated to delivering quality work that helps your business grow and connect with your audience.<br> Every project is a new opportunity to create something unique and effective. I stay updated with thelatest trends and technologies to ensure your site is modern and reliable.<br>Your satisfaction and success are my toppriorities throughout the entire process.
     </p>
     <span id="readMoreBtn" style="cursor: pointer;">READ MORE</span>
 
     <section id="about-me">
       <!-- portfolio content -->
     </section>
-
+    
     <script>
       document.getElementById('readMoreBtn').addEventListener('click', function() {
         document.getElementById('about-me').scrollIntoView({ behavior: 'smooth' });
@@ -108,18 +102,16 @@
     </script>
     <h1 class="mr">More</h1>
   </div>
-  </div>
+
   <section class="about" id="about">
     <div class="about-me">
     <span>ABOUT ME</span>
     <p>
-      “Everything moves with time. Ideas change, designs grow, and nothing stays the same. In open spaces, things should feel clear, free, and easy to follow.”<br>“Things change, designs grow, and ideas take shape over time. Every part of this space is made to feel clear, calm, and easy to explore.”
+      "Everything moves with time. Ideas change, designs grow, and nothing stays the same. In open spaces, things should feel clear, free, and easy to follow."<br>"Things change, designs grow, and ideas take shape over time. Every part of this space is made to feel clear, calm, and easy to explore."
     </p>
     <span>Explore</span>
     </div>
-
-
-
+    
     <div class="services">
       <div>
         <h3>DESIGN</h3>
@@ -129,222 +121,217 @@
         <h3>DEVELOPMENT</h3>
         <p>I develop websites that align with your specific requirements and input. Whether <br>starting from an existing concept or building from scratch, I keep you involved throughout<br> to ensure the final product matches your vision.</p>
       </div>
-      </div>
-      <div class="main">
-        <h3>MAINTENANCE</h3>
-        <p>I keep your website up-to-date and running smoothly. From quick fixes to <br> regular updates, I make sure your site stays fresh and problem-free.</p>
-      </div>
-  </section>
-  <section class="new me" id="about">
-        <div class="-me">
-          <span>About ME</span>
-          <p>Hi, I’m Ayush Sharma — a passionate front-end developer from India with a strong drive to craft engaging and user-friendly web experiences. Over the past year, I’ve immersed myself in modern front-end technologies, discovering not just a skill set, but a true calling within the tech world.<br><br>
-            My journey in design began as a creative spark and quickly evolved into a full-fledged passion. Along the way, I’ve honed both my technical and aesthetic sense, building projects that are as functional as they are visually compelling. I’m fluent in English and always open to learning more — both in languages and code.<br><br>
-
-            When I’m not coding or exploring design, you’ll find me enjoying a game of cricket or football. These sports keep me energized, focused, and always ready to take on new challenges — both on the field and in life.</p>
-    <span>Explore</span>
-    <br>
-    <div class="pnb">
-    <img src="image/separatorBlack 7.png"></img>
     </div>
+    <div class="main">
+      <h3>MAINTENANCE</h3>
+      <p>I keep your website up-to-date and running smoothly. From quick fixes to <br> regular updates, I make sure your site stays fresh and problem-free.</p>
+    </div>
+  </section>
+
+  <section class="new-me" id="about">
+    <div class="about-me">
+      <span>About ME</span>
+      <p>Hi, I'm Ayush Sharma — a passionate front-end developer from India with a strong drive to craft engaging and user-friendly web experiences. Over the past year, I've immersed myself in modern front-end technologies, discovering not just a skill set, but a true calling within the tech world.<br><br>
+        My journey in design began as a creative spark and quickly evolved into a full-fledged passion. Along the way, I've honed both my technical and aesthetic sense, building projects that are as functional as they are visually compelling. I'm fluent in English and always open to learning more — both in languages and code.<br><br>
+        
+        When I'm not coding or exploring design, you'll find me enjoying a game of cricket or football. These sports keep me energized, focused, and always ready to take on new challenges — both on the field and in life.</p>
+      <span>Explore</span>
+      <br> 
+      <div class="pnb">
+        <img src="image/separatorBlack 7.png" alt="Separator"></img>
+      </div>
     </div>
     <div class="Designer">
       <div class="design">
-              <h3>DESIGNER</h3>
+        <h3>DESIGNER</h3>
         <p>I can design the website based on your needs and suggestions. I can also create it from scratch by consulting with you during work.</p>
       </div>
-       <div class="developer">
+      <div class="developer">
         <h3>DEVELOPMENT</h3>
         <p>Based on a project created by me or another one, sent by you, I can program the website to be fully functional and responsive.</p>
-    </div>
-    <div class="maintenance">
+      </div>
+      <div class="maintenance">
         <h3>MAINTENANCE</h3>
         <p>In case of any problems or the need for changes, I can introduce new functionalities and solutions.</p>
         <br>
         <div class="ntv">
-        <img src="image/separatorBlack 8.png"></img>
+          <img src="image/separatorBlack 8.png" alt="Separator"></img>
         </div>
       </div>
     </div>
   </section>
+
   <section class="skills" id="skills">
     <h2>SKILLS</h2>
     <div class="skill category">
       <h3>Using Now:</h3>
-    <div class="icons">
-  <!-- First row -->
-  <div class="row"></div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" style="width: 84.21px; height: 100px;">
-      <h1 style="width: 128px; height: 52px;">HTML5</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo" style="width: 84.14px; height: 100px;">
-      <h1 style="width: 126px; height: 52px;">CSS3</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass Logo" style="width: 126.62px; height: 99.93px">
-      <h1 style="width: 145px; height: 52px;">SASS</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" style="width: 96.24px; height: 100px;">
-      <h1 style="width: 126px; height: 52px;">JAVASCRIPT</h1>
-    </div>
-  </div>
+      <div class="icons">
+        <!-- First row -->
+        <div class="row">
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" style="width: 84.21px; height: 100px;">
+            <h1 style="width: 128px; height: 52px;">HTML5</h1>
+          </div>
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo" style="width: 84.14px; height: 100px;">
+            <h1 style="width: 126px; height: 52px;">CSS3</h1>
+          </div>
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass Logo" style="width: 126.62px; height: 99.93px">
+            <h1 style="width: 145px; height: 52px;">SASS</h1>
+          </div>
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" style="width: 96.24px; height: 100px;">
+            <h1 style="width: 126px; height: 52px;">JAVASCRIPT</h1>
+          </div>
+        </div>
 
-  <!-- Second row -->
-  <div class="row">
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="REACT Logo" style="width: 105.9px; height: 99.46px;">
-      <h1 style="width: 130px; height: 52px;">REACT</h1>
+        <!-- Second row -->
+        <div class="row">
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="REACT Logo" style="width: 105.9px; height: 99.46px;">
+            <h1 style="width: 130px; height: 52px;">REACT</h1>
+          </div>
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="BOOTSTRAP Logo" style="width: 96.24px; height: 100px;">
+            <h1 style="width: 136px; height: 52px;">BOOTSTRAP</h1>
+          </div>
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="Git Icon" style="width: 96.24px; height: 100px;">
+            <h1 style="width: 128px; height: 52px;">GIT</h1>
+          </div>
+          <div class="icon-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="FIGMA Logo" style="width: 69.49px; height: 100px;">
+            <h1 style="width: 132px; height: 52px;">FIGMA</h1>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="BOOTSTRAP Logo" style="width: 96.24px; height: 100px;">
-      <h1 style="width: 136px; height: 52px;">BOOTSTRAP</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="Git Icon" style="width: 96.24px; height: 100px;">
-      <h1 style="width: 128px; height: 52px;">GIT</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="FIGMA Logo" style="width: 69.49px; height: 100px;">
-      <h1 style="width: 132px; height: 52px;">FIGMA</h1>
-    </div>
-  </div>
-</div>
   </section>
+
   <section class="hill" id="skills">
     <h2>SKILLS </h2>
     <div class="hill-category">
-   <h3>USING NOW:</h3>
-   <div class="sticker">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" style="width: 84.21px; height: 100px;">
-      <h1 style="width: 128px; height: 52px;">HTML5</h1>
- <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo" style="width: 84.14px; height: 100px;">
-      <h1 style="width: 126px; height: 52px;">CSS3</h1>
- <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass Logo" style="width: 126.62px; height: 99.93px">
-      <h1 style="width: 145px; height: 52px;">SASS</h1>
-   </div>
-   </div>
-   </section>
-  <section class="node">
-  <div class="learn">
-   <h3>LEARNING:</h3>
-    <div class="learn-category">
-     <div class="learn-icons">
-      <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS Logo" style="width : 85.48px; height: 99.81px;">
-      <h1 style="width: 240px; height: 52px;">NODEJS</h1>
+      <h3>USING NOW:</h3> 
+      <div class="sticker">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" style="width: 84.21px; height: 100px;">
+        <h1 style="width: 128px; height: 52px;">HTML5</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo" style="width: 84.14px; height: 100px;">
+        <h1 style="width: 126px; height: 52px;">CSS3</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass Logo" style="width: 126.62px; height: 99.93px">
+        <h1 style="width: 145px; height: 52px;">SASS</h1>
       </div>
-      <div class="learn-icons">
-      <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL Logo" style="width: 102.98px; height: 100px;">
-      <h1 style="width: 240px; height: 52px;">MYSQL</h1>
-      </div>
-      <div class="learn-icons">
-      <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB Logo" style="width: 41.61px; height: 86.11px;">
-      <h1 style="width: 240px; height: 52px;">MONGODB</h1>
-      </div>
-      <div class="learn-icons">
-      <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="TypeScript Logo" style="width: 100px; height: 100px;">
-      <h1 style="width: 240px; height: 52px;">TYPESCRIPT</h1>
-      </div>
-     </div>
     </div>
-  </div>
   </section>
+
+  <section class="node">
+    <div class="learn">
+      <h3>LEARNING:</h3>
+      <div class="learn-category">
+        <div class="learn-icons">
+          <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="NodeJS Logo" style="width : 85.48px; height: 99.81px;">
+          <h1 style="width: 240px; height: 52px;">NODEJS</h1>
+        </div>
+        <div class="learn-icons">
+          <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL Logo" style="width: 102.98px; height: 100px;">
+          <h1 style="width: 240px; height: 52px;">MYSQL</h1>
+        </div>
+        <div class="learn-icons">
+          <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB Logo" style="width: 41.61px; height: 86.11px;">
+          <h1 style="width: 240px; height: 52px;">MONGODB</h1>
+        </div>
+        <div class="learn-icons">
+          <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="TypeScript Logo" style="width: 100px; height: 100px;">
+          <h1 style="width: 240px; height: 52px;">TYPESCRIPT</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="others">
     <div class="oth">
       <h3>OTHER SKILLS:</h3>
-<div class="oth-category">
-  <div class="oth-icons">
-    <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="India" style="width: 100px; height: 100px;">
-<h1 style="width: 240px; height: 52px;">HINDI / ENGLISH<br>Native / Fluent</h1>
-  </div>
-  <div class="oth-icons">
-    <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="English (US)" style="width: 96px; height: 64px; border-radius: 8px;">
-    <h1 style="width: 240px; font-size: 22px; margin-top: 10px;">English (US)</h1>
-    <p style="font-size: 16px; color: #444;">Fluent (C1–C2)</p>
+      <div class="oth-category">
+        <div class="oth-icons">
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="India" style="width: 100px; height: 100px;">
+          <h1 style="width: 240px; height: 52px;">HINDI / ENGLISH<br>Native / Fluent</h1>
+        </div>
+        <div class="oth-icons">
+          <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="English (US)" style="width: 96px; height: 64px; border-radius: 8px;">
+          <h1 style="width: 240px; font-size: 22px; margin-top: 10px;">English (US)</h1>
+          <p style="font-size: 16px; color: #444;">Fluent (C1–C2)</p>
+        </div>
+        <div class="oth-icons">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" style="width: 88.91px; height: 100px;">
+          <h1 style="width: 240px; height: 52px;">C++</h1>
+        </div>
+        <div class="oth-icons">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" style="width: 89px; height: 100px;">
+          <h1 style="width: 240px; height: 52px;">C</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="Portfolio" id="portfolio">
+    <div class="port">
+      <h2 class="section-title">PORTFOLIO</h2>
+      <img src="image/image 12.svg" alt="Portfolio Image" style="width: -webkit-fill-available;">
+    </div>
+    <nav class="tab">
+      <button class="active">ALL</button>
+      <button class="one">CODED</button>
+      <button class="two">DESIGNED</button>
+    </nav>
+  </section>
 
-  </div>
-  <div class="oth-icons">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" style="width: 88.91px; height: 100px;">
-    <h1 style="width: 240px; height: 52px;">C++</h1>
-    </div>
-    <div class="oth-icons">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" style="width: 89px; height: 100px;">
-    <h1 style="width: 240px; height: 52px;">C</h1>
-    </div>
-  </div>
+  <section class="grid">
+    <div class="portfolio-grid">
+      <img src="image/projects (1).png" alt="Portfolio Project 1">
     </div>
   </section>
 
-   <section class="Portfolio" id="portfolio">
-  <div class="port">
-  <h2 class="section-title">PORTFOLIO</h2>
-  <img src="image/image 12.svg" alt="Portfolio Image" style="width: -webkit-fill-available;">
-  </div>
-  <nav class="tab">
-    <button class="active">ALL</button>
-    <button class="one">CODED</button>
-    <button class="two">DESIGNED</button>
-  </nav>
+  <section class="dead">
+    <div class="all">
+      <img src="image/Portfolio.png" alt="Portfolio Project 2">
+    </div>
+  </section>
 
-  <script src="script.js">
-    const buttons = document.querySelectorAll(".tab button");
-
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    buttons.forEach(btn => btn.classList.remove("active"));
-    button.classList.add("active");
-  });
-});
-  </script>
- </section>
- <section class="grid">
-<div class="portfolio-grid">
-  <img src="image/projects (1).png" alt="Portfolio Project 1">
-
-</div>
-</section>
-<section class="dead">
-  <div class="all">
-   <img src="image/Portfolio.png" alt="Portfolio Project 2">
-  </div>
-</section>
   <section class="contact-section" id="contact">
-    <h2 class="section-title">
-      CONTACT
-    </h2>
+    <h2 class="section-title">CONTACT</h2>
     <p class="description">
-      Don’t wait to make things happen! We’re here to support your goals and bring your ideas to life.<br> Drop us a message and let’s build something extraordinary together.
+      Don't wait to make things happen! We're here to support your goals and bring your ideas to life.<br> Drop us a message and let's build something extraordinary together.
     </p>
     <p class="desk">
-      I’m Ayush Sharma from India, a dedicated computer science enthusiast in my third year, passionate about turning ideas into reality through technology.
+      I'm Ayush Sharma from India, a dedicated computer science enthusiast in my third year, passionate about turning ideas into reality through technology.
     </p>
-<div class="divider">
-  </div>
-  <form class="contact-form">
-  <input type="text" placeholder="ENTER YOUR NAME" required>
-  <input type="email" placeholder="ENTER YOUR EMAIL" required>
-  <input type="tel" placeholder="PHONE NUMBER" required>
-  <textarea placeholder="MESSAGE" required></textarea>
-  <div class="btn">
-  <button type="submit">SUBMIT</button>
-  </div>
-  </form>
+    <div class="divider"></div>
+    <form class="contact-form">
+      <input type="text" placeholder="ENTER YOUR NAME" required>
+      <input type="email" placeholder="ENTER YOUR EMAIL" required>
+      <input type="tel" placeholder="PHONE NUMBER" required>
+      <textarea placeholder="MESSAGE" required></textarea>
+      <div class="btn">
+        <button type="submit">SUBMIT</button>
+      </div>
+    </form>
   </section>
+
   <footer>
     <div class="back-to-top">
       <a href="#">&#9650; BACK TO TOP</a>
     </div>
     <div class="foots">
-      <img src="image/Vector (4).png"></img>
-      <img src="image/Vector (1).png"></img>
-      <img src="image/Vector (2).png"></img>
-    <img src="image/Vector (3).png"></img>
+      <img src="image/Vector (4).png" alt="Instagram"></img>
+      <img src="image/Vector (1).png" alt="GitHub"></img>
+      <img src="image/Vector (2).png" alt="LinkedIn"></img>
+      <img src="image/Vector (3).png" alt="Twitter"></img>
     </div>
     <p class="copyright">
        @ Ayush Sharma All Rights Reserved.
-      </p>
-      </footer>
-  </body>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
