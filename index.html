@@ -34,6 +34,7 @@
 </div>
 
      <button id="hamburger" class="hamburger">
+    
   <img id="hamburger-icon" src="image/game-icons--hamburger-menu (1).png" alt="Menu Icon">
   <span id="close-icon" style="display:none; font-size: 36px; color: white; background: black; cursor: pointer;">&times;</span>
 </button>
@@ -63,7 +64,7 @@
     hamburgerIcon.style.display = isActive ? "none" : "block";
     closeIcon.style.display = isActive ? "block" : "none";
   });
-</script>
+</script> 
   <!-- <div class="tint">
     <img src="image/entrepreneur etc.png"></img>
 
@@ -83,7 +84,7 @@
         </div>
     </div>
     <div class="second">
-      <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1200" alt="Tech Casual Portrait" class="full-responsive-img" />
+      <img src="image/image.png" alt="image" class="full-responsive-img" />
 
     </div>
     
@@ -108,33 +109,36 @@
     </script>
     <h1 class="mr">More</h1>
   </div>
-  </div>
+ 
   <section class="about" id="about">
     <div class="about-me">
-    <span>ABOUT ME</span>
-    <p>
-      “Everything moves with time. Ideas change, designs grow, and nothing stays the same. In open spaces, things should feel clear, free, and easy to follow.”<br>“Things change, designs grow, and ideas take shape over time. Every part of this space is made to feel clear, calm, and easy to explore.”
-    </p>
-    <span>Explore</span>
+      <span class="section-title">ABOUT ME</span>
+      <p class="about-quote">
+        “Everything moves with time. Ideas evolve, designs grow, and nothing stays the same. In open spaces, things should feel clear, free, and intuitive.”
+      </p>
+      <p class="about-quote">
+        “Designs grow and ideas take shape. Every part of this space is built to feel calm, meaningful, and easy to explore.”
+      </p>
+      <span class="explore-link">Explore</span>
     </div>
-    
   
-   
     <div class="services">
-      <div>
+      <div class="service-card">
         <h3>DESIGN</h3>
-        <p>I am able to create the website tailored to your preferences and ideas. Alternatively, <br>I can build it entirely from the ground up while keeping you involved throughout<br>the process for feedback and guidance.</p>
+        <p>I create modern, user-friendly websites tailored to your ideas, or from scratch — always with your input at every step.</p>
       </div>
-      <div>
+      <div class="service-card">
         <h3>DEVELOPMENT</h3>
-        <p>I develop websites that align with your specific requirements and input. Whether <br>starting from an existing concept or building from scratch, I keep you involved throughout<br> to ensure the final product matches your vision.</p>
+        <p>I develop fast, responsive, and scalable websites. From concept to code, everything is customized to your needs.</p>
       </div>
-      </div>
-      <div class="main">
-        <h3>MAINTENANCE</h3>
-        <p>I keep your website up-to-date and running smoothly. From quick fixes to <br> regular updates, I make sure your site stays fresh and problem-free.</p>
-      </div>
+    </div>
+  
+    <div class="main service-card">
+      <h3>MAINTENANCE</h3>
+      <p>I ensure your website stays updated, secure, and problem-free — with regular improvements and quick fixes as needed.</p>
+    </div>
   </section>
+  
   <section class="new me" id="about">
         <div class="-me">
           <span>About ME</span>
@@ -167,52 +171,47 @@
       </div>
     </div>
   </section>
-  <section class="skills" id="skills">
+   <section class="skills" id="skills">
     <h2>SKILLS</h2>
     <div class="skill category">
       <h3>Using Now:</h3>
-    <div class="icons">
-  <!-- First row -->
-  <div class="row"></div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" style="width: 84.21px; height: 100px;">
-      <h1 style="width: 128px; height: 52px;">HTML5</h1>
+      <div class="icons">
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo">
+          <h1>HTML5</h1>
+        </div>
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo">
+          <h1>CSS3</h1>
+        </div>
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass Logo">
+          <h1>SASS</h1>
+        </div>
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo">
+          <h1>JAVASCRIPT</h1>
+        </div>
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="REACT Logo">
+          <h1>REACT</h1>
+        </div>
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="BOOTSTRAP Logo">
+          <h1>BOOTSTRAP</h1>
+        </div>
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="Git Icon">
+          <h1>GIT</h1>
+        </div>
+        <div class="icon-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="FIGMA Logo">
+          <h1>FIGMA</h1>
+        </div>
+      </div>
     </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 Logo" style="width: 84.14px; height: 100px;">
-      <h1 style="width: 126px; height: 52px;">CSS3</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass Logo" style="width: 126.62px; height: 99.93px">
-      <h1 style="width: 145px; height: 52px;">SASS</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" style="width: 96.24px; height: 100px;">
-      <h1 style="width: 126px; height: 52px;">JAVASCRIPT</h1>
-    </div>
-  </div>
-
-  <!-- Second row -->
-  <div class="row">
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="REACT Logo" style="width: 105.9px; height: 99.46px;">
-      <h1 style="width: 130px; height: 52px;">REACT</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="BOOTSTRAP Logo" style="width: 96.24px; height: 100px;">
-      <h1 style="width: 136px; height: 52px;">BOOTSTRAP</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="Git Icon" style="width: 96.24px; height: 100px;">
-      <h1 style="width: 128px; height: 52px;">GIT</h1>
-    </div>
-    <div class="icon-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="FIGMA Logo" style="width: 69.49px; height: 100px;">
-      <h1 style="width: 132px; height: 52px;">FIGMA</h1>
-    </div>
-  </div>
-</div>
-  </section>
+    
+   </section> 
   <section class="hill" id="skills">
     <h2>SKILLS </h2>
     <div class="hill-category">
@@ -249,7 +248,7 @@
       </div>
      </div>
     </div>
-  </div>
+  
   </section>
   <section class="others">
     <div class="oth">
@@ -287,6 +286,8 @@
     <button class="one">CODED</button>
     <button class="two">DESIGNED</button>
   </nav>
+  
+  </section>
 
   <script src="script.js">
     const buttons = document.querySelectorAll(".tab button");
@@ -298,7 +299,7 @@ buttons.forEach(button => {
   });
 });
   </script>
- </section class="grid">
+ <section class="grid"></section>
  <section>
 <div class="portfolio-grid">
   <img src="image/projects (1).png" alt="Portfolio Project 1">
@@ -310,41 +311,65 @@ buttons.forEach(button => {
    <img src="image/Portfolio.png" alt="Portfolio Project 2">
   </div>
 </section>
-  <section class="contact-section" id="contact">
-    <h2 class="section-title">
-      CONTACT
-    </h2>
-    <p class="description">
-      Don’t wait to make things happen! We’re here to support your goals and bring your ideas to life.<br> Drop us a message and let’s build something extraordinary together.
-    </p>
-    <p class="desk">
-      I’m Ayush Sharma from India, a dedicated computer science enthusiast in my third year, passionate about turning ideas into reality through technology.
-    </p>
-<div class="divider">
-  </div>
+<section class="contact-section" id="contact">
+  <h2 class="section-title">CONTACT</h2>
+
+  <p class="description">
+    Don’t wait to make things happen! We’re here to support your goals and bring your ideas to life.  
+    <br>Drop a message and let’s build something extraordinary together.
+  </p>
+
+  <p class="desk">
+    I’m <strong>Ayush Sharma</strong> from India, a dedicated Computer Science student (3rd year) passionate about turning ideas into reality through technology.
+  </p>
+
+  <div class="divider"></div>
+
   <form class="contact-form">
-  <input type="text" placeholder="ENTER YOUR NAME" required>
-  <input type="email" placeholder="ENTER YOUR EMAIL" required>
-  <input type="tel" placeholder="PHONE NUMBER" required>
-  <textarea placeholder="MESSAGE" required></textarea>
-  <div class="btn">
-  <button type="submit">SUBMIT</button>
-  </div>
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="Phone number" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Your message..." required></textarea>
+    </div>
+
+    <div class="btn">
+      <button type="submit"> SUBMIT </button>
+    </div>
   </form>
-  </section>
+</section>
+
   <footer>
-    <div class="back-to-top">
-      <a href="#">&#9650; BACK TO TOP</a>
-    </div>
-    <div class="foots">
-      <img src="image/Vector (4).png"></img>
-      <img src="image/Vector (1).png"></img>
-      <img src="image/Vector (2).png"></img>
-    <img src="image/Vector (3).png"></img>
-    </div>
-    <p class="copyright">
-       @ Ayush Sharma All Rights Reserved.
+    <div class="footer-container">
+      <div class="back-to-top">
+        <a href="#">&#9650; Back to Top</a>
+      </div>
+  
+      <div class="social-icons">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="LinkedIn"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a> 
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+      </div>
+  
+      <p class="copyright">
+        &copy; Ayush Sharma — All Rights Reserved.
       </p>
-      </footer>
+    </div>
+  </footer>
+  
   </body>
 </html>
