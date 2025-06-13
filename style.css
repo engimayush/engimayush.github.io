@@ -1310,6 +1310,7 @@ body {
 
   #readMoreBtn {
     font-size: 0.9rem;
+    display: none;
     color: #00aaff;
     text-transform: uppercase;
     border-top: 1px solid #00aaff;
@@ -1321,6 +1322,7 @@ body {
 
   #readMoreBtn:hover {
     color: #0077cc;
+    display: none;
     border-color: #0077cc;
   }
 
